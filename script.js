@@ -39,9 +39,9 @@ for(let x = 0; x < clubes.length; x++){
     }*/
 }
 
-//Agrego un nuevo club y muestro por consola los objetos.
-clubes.push(psg = new Club (5, "Psg", 1900, "Eridivisie", 50))
-console.log(clubes)
+//Agrego un nuevo club y muestro por consola el nuevo objeto.
+clubes.push(psg = new Club (5, "Psg", 1970, "Ligue 1", 36))
+console.log(clubes[4])
 
 
 
